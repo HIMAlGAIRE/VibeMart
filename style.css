@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: "Lato", serif;
+    overflow-x: hidden;
+   
+}
+.menu{
+
+    display: block;
+    float: right;
+    
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+    color: rgb(0, 0, 0);
+    animation-name: test;
+    animation-duration: 10s;
+    position: relative;
+    
+    
+}
+.menu button{
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    background:transparent;
+    border-right: 2px solid rgb(228, 12, 12);
+    color: black;
+    font-size: large;
+   
+}
+
+.menu button:hover{
+    background-color: rgb(179, 189, 235);
+    transition: 0.4s;
+    transition-property: inherit;
+    cursor: pointer;
+    color: aliceblue;
+}
+@keyframes test {
+    0%   {right: 1000px; top:0px;}
+    25%  {right: 0px; top: 0px;}
+  }
+@keyframes test1{
+    0%   {left: 1000px; top: 0px;}
+    25%  {left: 0px; top: 0px;}
+}
+.hi{
+    animation-name: test1 ;
+    animation-duration: 10s;
+    position: relative;
+    float: left;
+   
+    font-size: xxx-large;
+    
+}
+a { color: inherit; } 
+
+.container{
+    
+    width: 100vw;
+    height: 600px;
+    background-size: 100% 100%;
+    animation-name: background;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
+    background-image: url(p1.jpg);
+    
+}
+@keyframes background{
+    0%{background-image: url(./images/p1.jpg);}
+    25%{background-image: url(/images/p2.jpg);}
+    50%{background-image: url(/images/p3.jpg);}
+    75%{background-image: url(/images/p4.jpg);}
+    100%{background-image: url(/images/p5.jpg);}
+}
+.nav button{
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    background-color: black;
+    border-right: 2px solid rgb(228, 12, 12);
+    color: rgb(138, 14, 14);
+    font-size: large;}
+    
+.navbottom {
+    text-align: center;
+    background-color: black;
+    
+    display: block;
+    text-decoration: none;
+    
+    
+}
+.nav button:hover{
+    background-color: rgb(179, 189, 235);
+    transition: 0.4s;
+    transition-property: inherit;
+    cursor: pointer;
+    color: aliceblue;
+    
+}
+.product{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    padding: 110px;
+    position: relative;;
+   
+}
+.product img{
+    height: 500px;
+    
+
+}
+.price{
+    font-weight: 1000;
+    color: brown;
+}
+.Hi{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    position: relative;
+}
+.Hi:hover{
+    background-color: rgb(255, 0, 0);
+    transition: 0.4;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .hero{
+    text-align: center;
+  }
