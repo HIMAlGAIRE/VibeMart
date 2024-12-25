@@ -70,7 +70,7 @@ a { color: inherit; }
     animation-duration: 15s;
     animation-iteration-count: infinite;
     
-    background-image: url(p1.jpg);
+    background-image: url(../images/p1.jpg);
     
 }
 @keyframes background{
