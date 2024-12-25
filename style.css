@@ -66,14 +66,14 @@ a { color: inherit; }
     width: 100vw;
     height: 600px;
     background-size: 100% 100%;
-    animation-name: background;
+    animation-name: background1;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     
     background-image: url(p1.jpg);
     
 }
-@keyframes background{
+@keyframes background1{
     0%{background-image: url(./images/p1.jpg);}
     25%{background-image: url(./images/p2.jpg);}
     50%{background-image: url(./images/p3.jpg);}
